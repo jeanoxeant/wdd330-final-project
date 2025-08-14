@@ -3,7 +3,7 @@ import { initRouter } from './router';
 
 function Header() {
   const appTitle = createElement('h1', {
-    textContent: 'PastryPal',
+    textContent: 'Smart Recipe Finder',
     className: 'heading',
   });
 
@@ -32,7 +32,7 @@ function Header() {
 
 function Footer() {
   const copyright = createElement('span', {
-    textContent: `© ${new Date().getFullYear()} PastryPal`,
+    textContent: `© ${new Date().getFullYear()} SmartRecipeFinder`,
   });
 
   const footerP = createElement('p', {
@@ -44,10 +44,10 @@ function Footer() {
 
   const contactInfo = createElement('div', {}, [
     createElement('p', { textContent: 'Contact Us' }),
-    createElement('p', { textContent: 'Phone: +51 916 165 703' }),
-    createElement('p', { textContent: 'Email: pastrypal@gmail.com' }),
+    createElement('p', { textContent: 'Phone: +18296565322' }),
+    createElement('p', { textContent: 'Email: jeanoxeant@gmail.com' }),
     createElement('p', {
-      textContent: 'Address: 6711 Abanto St, Carlsbad, CA 92009',
+      textContent: 'Address: Respaldo 10 St, Buena Vista 1ra, Villa Mella',
     }),
   ]);
 
