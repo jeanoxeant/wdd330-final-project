@@ -1,25 +1,27 @@
 import { createElement } from './utils';
 import { getFeaturedRecipes } from './APIHandler';
-import heroImg from '../images/hero_path.jpg';
+//import heroImg from '../images/hero_path.jpg';
+import heroImg from '../images/hero-path.jpg';
+
 
 function HomeView() {
   const hero = createElement('img', {
     src: heroImg,
-    alt: 'PastryPal Hero Image',
+    alt: 'SmartRecipe Hero Image',
     className: 'hero',
   });
   const title = createElement('h2', {
-    textContent: 'Get to Know US',
+    textContent: 'About US',
     className: 'title-heading',
   });
   const intro = createElement('p', {
     textContent:
-      "Welcome to PastryPal, your go-to source for delightful pastry recipes! Based in the heart of the baking community, PastryPal is dedicated to helping you discover the joy of homemade baked goods. From flaky croissants to rich, decadent cakes, our mission is to provide you with easy-to-follow recipes, sourced from renowned bakers for every skill level. Whether you're a seasoned baker or just starting out, our collection features a variety of delicious options and classic pastries.",
+      '🍽️ Welcome to SmartRecipeFinder — Your Personal Recipe Finder!, Tired of staring into your fridge wondering what to cook? SmartChef is here to turn your ingredients into delicious possibilities. Whether you’re working with a handful of pantry staples or planning a gourmet meal, our intelligent recipe engine helps you discover dishes tailored to what you already have. Just input your ingredients, set your preferences, and let SmartChef serve up ideas that are quick, healthy, and satisfying. Cooking smarter starts here!',
     className: 'intro-paragraph',
   });
   const invite = createElement('p', {
     textContent:
-      'At PastryPal, we believe that baking should be accessible and rewarding—a way to bring loved ones together, one pastry at a time. Come explore, create, and share the love of baking with us!',
+      'At SmartRecipeFinder, we’re passionate about making baking easy, joyful, and meaningful—a chance to connect with those you care about through every sweet creation. Join us to discover, bake, and spread the joy of pastries together!',
     className: 'intro-paragraph',
   });
 
