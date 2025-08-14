@@ -14,10 +14,10 @@ export function initRouter(mainView) {
       case '#/home':
         updateView(HomeView());
         break;
-      case '#/recipes':
+      case '#/movies':
         updateView(RecipeView());
         break;
-      case '#/favoriterecipes':
+      case '#/favoritemovies':
         updateView(FavoriteRecipesView());
         break;
       default:

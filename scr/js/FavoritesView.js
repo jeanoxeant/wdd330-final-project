@@ -1,7 +1,7 @@
 import { createElement } from './utils';
 
 function FavoriteRecipesView() {
-  const title = createElement('h2', { textContent: 'Your Favorite Recipes ' });
+  const title = createElement('h2', { textContent: 'Your Favorite Movies ' });
   const favoritesSection = createElement('div', {
     className: 'favorites-section',
   });
