@@ -1,8 +1,8 @@
 # wdd330-final-project
 
-PastryPal
+Movie Info & Watchlist
 Randomized production URL
-👉 https://pastrypal.netlify.app/
+👉 https://movieinfo-watchlist.netlify.app/
 
 Table of Contents
 Description
@@ -20,4 +20,4 @@ npm run build to build final files when you are ready to turn in.
 npm run lint to run ESLint against your code to find errors.
 npm run format to run Prettier to automatically format your code.
 👾 Collaborator
-Gabriel Yanqui Alvarez
+Jean Rubin Oxeant
