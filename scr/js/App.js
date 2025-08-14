@@ -54,7 +54,7 @@ function Footer() {
   const credit = createElement('p', {}, [
     createElement('a', {
       href: 'https://www.freepublicapis.com/free-movie-api',
-      textContent: 'Themealdb',
+      textContent: 'Themoviedb',
       target: '_blank',
     }),
   ]);
