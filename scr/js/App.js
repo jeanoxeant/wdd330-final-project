@@ -53,7 +53,7 @@ function Footer() {
 
   const credit = createElement('p', {}, [
     createElement('a', {
-      href: 'https://www.themealdb.com/',
+      href: 'https://www.freepublicapis.com/free-movie-api',
       textContent: 'Themealdb',
       target: '_blank',
     }),
