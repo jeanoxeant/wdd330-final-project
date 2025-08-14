@@ -14,7 +14,7 @@ export function initRouter(mainView) {
       case '#/home':
         updateView(HomeView());
         break;
-      case '#/reipes':
+      case '#/recipes':
         updateView(RecipeView());
         break;
       case '#/favoriterecipes':
