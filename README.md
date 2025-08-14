@@ -1,6 +1,6 @@
 # wdd330-final-project
 
-Movie Info & Watchlist
+Smart Recipe Finder
 Randomized production URL
 👉 https://movieinfo-watchlist.netlify.app/
 

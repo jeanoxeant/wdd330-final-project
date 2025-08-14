@@ -5,7 +5,7 @@ import heroImg from '../images/hero_path.jpg';
 function HomeView() {
   const hero = createElement('img', {
     src: heroImg,
-    alt: 'Movie Hero Image',
+    alt: 'PastryPal Hero Image',
     className: 'hero',
   });
   const title = createElement('h2', {
@@ -14,7 +14,7 @@ function HomeView() {
   });
   const intro = createElement('p', {
     textContent:
-      "Welcome to Movie Info, your go-to source for delightful pastry recipes! Based in the heart of the baking community, PastryPal is dedicated to helping you discover the joy of homemade baked goods. From flaky croissants to rich, decadent cakes, our mission is to provide you with easy-to-follow recipes, sourced from renowned bakers for every skill level. Whether you're a seasoned baker or just starting out, our collection features a variety of delicious options and classic pastries.",
+      "Welcome to PastryPal, your go-to source for delightful pastry recipes! Based in the heart of the baking community, PastryPal is dedicated to helping you discover the joy of homemade baked goods. From flaky croissants to rich, decadent cakes, our mission is to provide you with easy-to-follow recipes, sourced from renowned bakers for every skill level. Whether you're a seasoned baker or just starting out, our collection features a variety of delicious options and classic pastries.",
     className: 'intro-paragraph',
   });
   const invite = createElement('p', {

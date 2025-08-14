@@ -3,7 +3,7 @@ import { initRouter } from './router';
 
 function Header() {
   const appTitle = createElement('h1', {
-    textContent: 'Movie Info',
+    textContent: 'PastryPal',
     className: 'heading',
   });
 
@@ -13,11 +13,11 @@ function Header() {
     textContent: 'Home',
   });
   const recipeLink = createElement('a', {
-    href: '#/movies',
-    textContent: 'Movies',
+    href: '#/recipes',
+    textContent: 'Recipes',
   });
   const favoriterecipesLink = createElement('a', {
-    href: '#/favoritemovies',
+    href: '#/favoriterecipes',
     textContent: 'Favorites',
   });
 
@@ -32,7 +32,7 @@ function Header() {
 
 function Footer() {
   const copyright = createElement('span', {
-    textContent: `© ${new Date().getFullYear()} Movie Info`,
+    textContent: `© ${new Date().getFullYear()} PastryPal`,
   });
 
   const footerP = createElement('p', {
@@ -44,17 +44,17 @@ function Footer() {
 
   const contactInfo = createElement('div', {}, [
     createElement('p', { textContent: 'Contact Us' }),
-    createElement('p', { textContent: 'Phone: +18296565322' }),
-    createElement('p', { textContent: 'Email: movie_info@gmail.com' }),
+    createElement('p', { textContent: 'Phone: +51 916 165 703' }),
+    createElement('p', { textContent: 'Email: pastrypal@gmail.com' }),
     createElement('p', {
-      textContent: 'Address: respaldo 10 St, Buena Vista 1ra, Villa Mella',
+      textContent: 'Address: 6711 Abanto St, Carlsbad, CA 92009',
     }),
   ]);
 
   const credit = createElement('p', {}, [
     createElement('a', {
-      href: 'https://www.freepublicapis.com/free-movie-api',
-      textContent: 'Themoviedb',
+      href: 'https://www.themealdb.com/',
+      textContent: 'Themealdb',
       target: '_blank',
     }),
   ]);
